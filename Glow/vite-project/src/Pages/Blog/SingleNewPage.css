@@ -1,0 +1,17 @@
+.custom-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #444; 
+    margin: 0 6px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+    .custom-pagination .swiper-pagination-bullet-active {
+    background-color: transparent;
+    transform: scale(1.4); 
+  }
+  

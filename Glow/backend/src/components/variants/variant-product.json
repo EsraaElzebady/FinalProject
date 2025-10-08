@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_variants_variant_products",
+  "info": {
+    "displayName": "VariantProduct"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "product_img": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "scent": {
+      "type": "string"
+    },
+    "Product_size": {
+      "type": "enumeration",
+      "enum": [
+        "Sm",
+        "Md",
+        "Lg",
+        "XL"
+      ]
+    },
+    "sku": {
+      "type": "string"
+    },
+    "specific_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "brand": {
+      "type": "string"
+    },
+    "brand_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

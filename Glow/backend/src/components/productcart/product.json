@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_productcart_products",
+  "info": {
+    "displayName": "product"
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "biginteger"
+    },
+    "variantIndex": {
+      "type": "biginteger"
+    },
+    "productId": {
+      "type": "biginteger"
+    }
+  },
+  "config": {}
+}

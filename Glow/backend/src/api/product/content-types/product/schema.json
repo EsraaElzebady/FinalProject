@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_name": {
+      "type": "string",
+      "required": true
+    },
+    "VariantProduct": {
+      "type": "component",
+      "component": "variants.variant-product",
+      "repeatable": true
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "mappedBy": "products"
+    },
+    "addedImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "vendor": {
+      "type": "string"
+    },
+    "product_status": {
+      "type": "string"
+    },
+    "deletedprice": {
+      "type": "string"
+    },
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "Sm ",
+        "Md",
+        "Lg"
+      ]
+    },
+    "product_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hoverimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "totalprice": {
+      "type": "string"
+    },
+    "variantIndex": {
+      "type": "biginteger"
+    }
+  }
+}

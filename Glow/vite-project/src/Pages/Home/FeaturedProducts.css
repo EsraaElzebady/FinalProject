@@ -1,0 +1,21 @@
+
+  .featured-products-section body {
+    font-family: "urbanist", sans-serif;
+  }
+  .featured-products-section .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .featured-products-section .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background:white;
+    color:black;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
